@@ -20,8 +20,7 @@ h4, h6 {
 }
 a{
     color: #369BCC;
-    padding-left: 20px;
-    
+    padding-left: 20px;  
 }
 
 /* header */
@@ -39,14 +38,15 @@ p{
     margin-bottom: 40px;
 }
 /* main */
-.conteiner{
-    margin-left: 10px;
-}
+
 .box {
     height: 100px;
-    width: 300px;
+    width:calc(100% / 3 - 40px);
     background-color: #0F0E17;
     float: left;
+    margin-left: 40px;
+    margin-bottom: 50px;
+    
 }
 
 .img{
