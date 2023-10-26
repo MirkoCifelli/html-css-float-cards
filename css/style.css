@@ -4,3 +4,21 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* header */
+.purple{
+    color: #B62B5C;
+}
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+p{
+    text-align: center;
+    margin-bottom: 40px;
+}
