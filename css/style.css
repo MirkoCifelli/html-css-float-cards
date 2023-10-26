@@ -42,7 +42,7 @@ p{
 
 .box {
     height: 100px;
-    width:calc(100% / 3 - 3px);
+    width:calc(300px);
     background-color: #0F0E17;
     float: left;
     margin-left: 40px;
