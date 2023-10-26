@@ -4,9 +4,24 @@
     padding: 0;
     box-sizing: border-box;
 }
+img{
+    width: 100%;
+    display: block;
+}
 body{
     max-width: 1200px;
     margin: 0 auto;
+}
+h4, h6 {
+    color: white;
+    padding-left: 20px;
+    padding-top: 5px;
+    margin-bottom: 10px;
+}
+a{
+    color: #369BCC;
+    padding-left: 20px;
+    
 }
 
 /* header */
@@ -17,8 +32,35 @@ h1 {
     text-align: center;
     margin-top: 20px;
     margin-bottom: 40px;
+    font-size: 40px;
 }
 p{
     text-align: center;
     margin-bottom: 40px;
+}
+/* main */
+.conteiner{
+    margin-left: 10px;
+}
+.box {
+    height: 100px;
+    width: 300px;
+    background-color: #0F0E17;
+    float: left;
+}
+
+.img{
+    height: 100px;
+    width: 100px;
+    float: left;
+}
+.info{
+    width: calc(100% - 100px);
+    float: left;
+    padding-top: 10px;
+}
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
 }
